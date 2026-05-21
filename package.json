@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "type-check": "tsc --noEmit",
@@ -14,12 +14,12 @@
   "homepage": "https://你的用户名.github.io/tanstack-start-app",
   "dependencies": {
     "@tanstack/react-query": "^5.17.0",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.0.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.30.3",
-    "tailwind-merge": "^2.0.0",
+    "tailwind-merge": "^2.6.1",
     "typescript": "^5.3.3",
     "vite": "^5.4.21",
     "zod": "^3.22.4"

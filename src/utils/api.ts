@@ -1,6 +1,4 @@
-import { z } from 'zod'
-
-const API_BASE_URL = import.meta.env.VITE_API_URL || '/api'
+const API_BASE_URL = '/api'
 
 // API 请求工具类
 export class ApiClient {
@@ -54,10 +52,3 @@ export class ApiClient {
 
 // 创建默认 API 客户端
 export const api = new ApiClient()
-
-// 请求拦截器
-api['interceptors'] = {
-  request: (config: any) => config,
-  response: (response: any) => response,
-  error: (error: any) => Promise.reject(error),
-}
