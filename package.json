@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://你的用户名.github.io/tanstack-start-app",
+  "homepage": "https://ackerman66.github.io/tanstack-start-app/",
   "dependencies": {
     "@tanstack/react-query": "^5.17.0",
     "class-variance-authority": "^0.7.1",
